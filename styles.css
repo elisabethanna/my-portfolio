@@ -1,0 +1,8 @@
+:root {
+  --beige: #bd9b8a;
+}
+
+html {
+  background-color: var(--beige);
+  color: white;
+}
