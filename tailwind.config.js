@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      colors: {
+        beigeLight: '#d3bcb1',
+        beige: '#bd9b8a',
+      },
     },
   },
   variants: {
