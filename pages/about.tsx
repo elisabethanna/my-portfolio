@@ -16,7 +16,7 @@ const About = () => {
           <Image className="rounded-full" alt="anna" src={profileImg} />
         </div>
 
-        <div className="flex flex-col ">
+        <div className="flex flex-col justify-center ">
           <div className="flex flex-row pb-8">
             <span className="text-xl md:text-4xl font-bold">{`Hello, I'm`}</span>
             <span className="text-xl md:text-4xl font-thin pl-2 ">
@@ -32,10 +32,10 @@ const About = () => {
           </p>
         </div>
         <div
-          className="hidden lg:flex ml-20 justify-between"
+          className="hidden lg:flex  m-auto"
           style={{
-            maxHeight: '150px',
-            maxWidth: '150px',
+            maxHeight: '256px',
+            maxWidth: '256px',
           }}
         >
           <Image className="rounded-full" alt="anna" src={profileImg} />
