@@ -19,10 +19,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 h-full sm:px-14">
         {projects.map((project) => (
           <div className="border-white border rounded-xl" key={project.id}>
-            <div
-              style={{ height: '200px' }}
-              className="grid grid-cols-2 h-full"
-            >
+            <div className="grid grid-cols-2 h-full">
               <div className="p-4 pb-0 flex flex-col justify-between">
                 <div>
                   <h1
