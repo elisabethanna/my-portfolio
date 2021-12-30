@@ -11,7 +11,7 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title>My portfolio</title>
+        <title>Anna Eriksson</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-10/12 m-auto flex flex-col h-screen">
