@@ -36,7 +36,7 @@ const Projects = () => {
                 </div>
                 {project.link ? (
                   <Link passHref href={project.link}>
-                    <p className="mb-4">Check it out</p>
+                    <p className="mb-4 cursor-pointer">Check it out</p>
                   </Link>
                 ) : (
                   <p className="invisible">View more</p>
@@ -45,7 +45,7 @@ const Projects = () => {
               <Image
                 alt={project.id}
                 src={project.image}
-                className={'rounded-r-xl'}
+                className={'rounded-r-xl cursor-pointer'}
                 height="100%"
                 objectFit="cover"
                 onClick={() => handleClick(project.id)}
